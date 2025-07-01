@@ -184,6 +184,11 @@ apiserver:
   #  - mountPath: /dev/shm
   #    name: ramdisk
 
+# -- Api Server asyncdelete configurations
+apiserver_asyncdelete:
+  # -- Api Server asyncdelete extra environment variables
+  extraEnvs: []
+
 # -- File Server configurations
 fileserver:
   # -- Enable/Disable component deployment
